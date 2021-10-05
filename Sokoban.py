@@ -6,10 +6,8 @@ from nanoid import generate
 #user inputs
 file = input("Enter the path to your input file(.txt format) here")
 with open(file.strip()) as f:
-    contents = f.readlines()
-Lines = []
-for line in contents:
-    Lines.append(line.strip("\n"))
+    contents = f.read()
+Lines = contents.strip().split("\n")
 print("1. Breadth First Serach")
 print("2. Depth First Serach")
 print("3. Greedy Breadth First Search using Manhattan Distance")
