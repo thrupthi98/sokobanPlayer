@@ -11,14 +11,14 @@ The Sokoban Player is a program that implements four AI Algorithms to play the S
 * Manhattan Distance
 * Non Trivial Heuristic
 
-To get the output,
-1. Store the input in a text file (.txt format).
-2. Give the path of the .txt file when prompted.
-3. After reading the text file, the program displays a list of algorithms.
-3. Enter the number associated with the algorithm you choose to execute.
+## To get the output,
+* Store the input in a text file (.txt format).
+* Give the path of the .txt file when prompted.
+* After reading the text file, the program displays a list of algorithms.
+* Enter the number associated with the algorithm you choose to execute.
 
 
 ### To run the code 
 ```
-python3 sample.py
+python3 Sokoban.py
 ```
